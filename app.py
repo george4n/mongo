@@ -16,3 +16,6 @@ posts = db.posts
 articles = db.articles
 post_id = posts.insert_one(post).inserted_id
 print(db.list_collection_names())
+
+print("Hello")
+print("Hello Again")
